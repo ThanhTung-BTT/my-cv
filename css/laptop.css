@@ -1,0 +1,33 @@
+@media (min-width: 992px) {
+  #nav-bar nav {
+    max-width: 970px;
+    grid-template-columns: auto 16% auto 16% auto 34% auto 16% auto 16% auto;
+  }
+
+  .isLaptop {
+    display: block;
+  }
+
+  #job-info .container {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    max-width: 1000px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+  }
+
+  #certificate .container, #project .container {
+    max-width: 1000px;
+  }
+
+  .certificate-detail {
+    display: flex;
+  }
+
+  .certificate-item img {
+    height: 100px;
+    aspect-ratio: 201/100;
+    margin-right: 20px;
+  }
+  
+}

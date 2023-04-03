@@ -1,0 +1,90 @@
+@media (max-width: 600px) {
+
+  #nav-bar nav {
+    justify-content: flex-start;
+    width: 100%;
+    padding: 20px !important;
+
+  }
+
+  #nav-bar a {
+    margin-bottom: 10px;
+    text-align: start;
+  }
+
+  .vl {
+    border-width: 0px;
+    height: 0;
+    display: none;
+  }
+
+  #about {
+    display: block;
+  }
+
+  #job-info .container {
+    width: 100%;
+  }
+
+  .certificate-item img {
+    margin-right: 0;
+    width: 100%;  
+    margin-bottom: 20px;
+  }
+
+  .certificate-item .fist {
+    border-width: 0px;
+    margin-right: 0;
+  }
+
+  .certificate-item {
+    display: block;
+    margin-top: 30px;
+  }
+
+  #project .card {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #f1f1f1;
+  }
+
+  .project-item {
+    display: block;
+  }
+
+  .isMobile {
+    display: block !important;
+  }
+
+  .certificate-item .first {
+    border-width: 0;
+    margin-right: 0;
+  }
+
+  #certificate, #project {
+    padding: 50px 10px;
+  }
+
+  #footer ul {
+    padding-left: 0;
+    margin-left: 0;
+  }
+
+  #footer a {
+    padding: 0 10px;
+    display: flex;
+  }
+
+  #footer i {
+    font-size: 16px;
+    padding-right: 5px;
+  }
+
+  .project-item .card-item {
+    display: block;
+  }
+
+  .project-item .card-item div {
+    margin-bottom: 10px;
+  }
+}
